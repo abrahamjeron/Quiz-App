@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F7F8FB;
+}
+.body-cont{
+    height: 100vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #394B78;
+    height: 95px;
+}
+.navigation h1{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: #CDBFEA;
+    font-size: 2.5rem;
+}
+.navigation button{
+    position: relative;
+    top: 30px;
+    margin-right: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    height: 35px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+#question{
+    margin-left: 70px;
+    color: #9598A3;
+    font-family: Poppins;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+#questionnum{
+    margin-left: 70px;
+    color: #0082A7;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.buttons{
+    height: 97px;
+    flex-shrink: 0;
+    margin-left: 70px;
+    margin-bottom: 8px;
+    display: flex;
+    width: 1227px;
+    border: 0.5px solid #000;
+    background: #FFF;
+    font-size: 1.7rem;
+    padding-top: 25px;
+    padding-left: 80px;
+    font-weight: 600;
+}
+.buttons p{
+    border: 1px solid black;
+    position: relative;
+    right: 40px;
+    bottom: 25px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 50px;
+}
+.quesbuttons button{
+    position: relative;
+    left: 894px;
+    padding: 2px 3px 0px 6px;
+    align-items: center;
+    border-radius: 3px;
+    background: #39B1D2;
+    border: none;
+    margin-left: 40px;
+    color: white;
+    font-size: 1.5rem;
+}
+#remove{
+    background-color: #117590;
+}
+.score{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+#restartbtn{
+    position: relative;
+    left: 45%;
+    top: 170px;
+    font-size: 1.3rem;
+    background:#117590 ;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
